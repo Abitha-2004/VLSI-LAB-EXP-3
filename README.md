@@ -110,6 +110,10 @@ ha ha1(x[1]&y[0],x[0]&y[1],z[1],w[1]);
 fa fa1(x[2]&y[0],x[1]&y[1],w[1],w[5],w[2]);
 
 fa fa2(x[3]&y[0],x[2]&y[1],w[2],w[6],w[3]);
+~~~
+output:
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/3537068a-bbbe-4d18-9cb0-6b49fc598eaf)
+
 
 ha ha2(x[3]&y[1],w[3],w[7],w[4]);
 
