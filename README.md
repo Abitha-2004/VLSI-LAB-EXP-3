@@ -59,6 +59,10 @@ wire w1;
 and g1(c[0],b[0],a[0]);
 
 ha ha1(a[0]&b[1],a[1]&b[0],c[1],w1);
+
+ha ha2(a[1] &b[1],w1,c[2],c[3]);
+
+endmodule
 ~~~
 output:
 ![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/2dabcdb0-fae0-4bea-b0aa-161a88786177)
@@ -133,19 +137,10 @@ fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
 ~~~
 output:
-![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/a3970f50-4fcc-498c-8579-eb652955dd8e)
-
-
-
-
-
-
-**Output Waveform**
-
-<<< Simulation output waveform paste it here >>>>>
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/7ca5c3de-d4d6-4a14-b240-4665f183fbe1)
 
 
 **Result**
-
+Hence the 2 bit multiplier and 4 bit multiplier are simulated and synthesised using Vivado 2023.1.
 
 
