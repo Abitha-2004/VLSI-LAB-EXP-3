@@ -59,8 +59,10 @@ wire w1;
 and g1(c[0],b[0],a[0]);
 
 ha ha1(a[0]&b[1],a[1]&b[0],c[1],w1);
+~~~
 output:
-![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/80a0fb80-0b8a-4a20-8edf-952d53ad40cb)
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/2dabcdb0-fae0-4bea-b0aa-161a88786177)
+
 4 bit multiplier:
 ~~~
 module ha(a,b,c,s);
@@ -110,11 +112,6 @@ ha ha1(x[1]&y[0],x[0]&y[1],z[1],w[1]);
 fa fa1(x[2]&y[0],x[1]&y[1],w[1],w[5],w[2]);
 
 fa fa2(x[3]&y[0],x[2]&y[1],w[2],w[6],w[3]);
-~~~
-output:
-![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/3537068a-bbbe-4d18-9cb0-6b49fc598eaf)
-
-
 ha ha2(x[3]&y[1],w[3],w[7],w[4]);
 
 ha ha3(w[5],x[0]&y[2],z[2],w[8]);
@@ -141,10 +138,7 @@ output:
 
 
 
-ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
-endmodule
-~~~
 
 **Output Waveform**
 
