@@ -65,7 +65,10 @@ ha ha2(a[1] &b[1],w1,c[2],c[3]);
 endmodule
 ~~~
 output:
-![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/2dabcdb0-fae0-4bea-b0aa-161a88786177)
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/9033ca91-a50c-401f-b286-0a67f506370e)
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/b75a36ad-be9f-4bcd-b727-537e276c7dc9)
+
+
 
 4 bit multiplier:
 ~~~
@@ -137,7 +140,8 @@ fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
 ~~~
 output:
-![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/7ca5c3de-d4d6-4a14-b240-4665f183fbe1)
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/99a683de-ca92-4437-9d85-6845adbcb173)
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-3/assets/161303006/9d9d10f6-7586-4bdf-ac4a-8a43e65daeaa)
 
 
 **Result**
